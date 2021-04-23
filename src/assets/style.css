@@ -1,0 +1,60 @@
+.bg-theme{
+  background-color: #5E91F8 !important;
+}
+
+.card-auth{
+  width: 40%;
+}
+
+.text-menu{
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.text-menu:active{
+  font-size: 18px;
+  margin-left: 10px;
+  color: gray !important;
+}
+
+.menu{
+  cursor: pointer;
+}
+
+.product-pict{
+  height: 50px;
+  width:  50px;
+  object-fit: cover;
+}
+
+.product-pict-card{
+  height: 60px;
+  width:  60px;
+}
+
+.table-product {
+  height: 340px;
+}
+
+.pict-product-card{
+  height: 110px;
+  width:  110px;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 10px !important;
+  border: 2px solid gray !important;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.card-add-product{
+  width: 55vw !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card-auth{
+    width: 80%;
+  }
+}
